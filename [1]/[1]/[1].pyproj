@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a69e8c6e-480a-45e0-a89e-55c855553456</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>list.py</StartupFile>
+    <StartupFile>iter1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="dict1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="iter1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="list.py" />
+    <Compile Include="set.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tuple.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

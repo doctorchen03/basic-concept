@@ -1,3 +1,4 @@
+#List is a collection which is ordered and changeable. Allows duplicate members.
 #initialize
 list1 = ['a','b','c']
 print(list1)
