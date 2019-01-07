@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a69e8c6e-480a-45e0-a89e-55c855553456</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>iter1.py</StartupFile>
+    <StartupFile>binarySequence.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="binarySequence.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="dict1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="frozenset.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="iter1.py">
