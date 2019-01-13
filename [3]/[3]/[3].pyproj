@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4c3fe70e-9744-4132-b7aa-8518c37262be</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FUNCTION.py</StartupFile>
+    <StartupFile>MAIN.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="FUNCTION.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMPORT.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IMPORT2.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="INHERIT.py">
