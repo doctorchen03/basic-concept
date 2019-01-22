@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6b71cef1-8d73-40b6-a40e-b12a6b8db121</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FILE2.py</StartupFile>
+    <StartupFile>DIR.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DIR.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="FILE.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="FILE2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="INPUT.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="JSON.py">
